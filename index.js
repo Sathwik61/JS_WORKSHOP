@@ -104,8 +104,29 @@ let i=1;
 // i++;
 // }while(i<=5)
 
-let a=[1,2,3,4,5]
 
-a.map((value,index)=>{
-    console.log(`${index}`,`${value}`)
-})
+// a.map((value,index)=>{
+    //     console.log(`${index}`,`${value}`)
+    // })
+    
+// let a=[1,2,3,4,5]
+// a.forEach((value,index)=>{
+//     console.log(`${index}`,`${value}`)
+// })
+
+
+
+function getEvenNumbers(arr) {
+    let evenNumbers = [];
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] % 2 === 0) {
+        evenNumbers.push(arr[i]);
+      }
+    }
+    return evenNumbers;
+  }
+  
+  // Example usage
+  let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  let result = getEvenNumbers(numbers);
+  console.log(result);  // Output: [2, 4, 6, 8, 10]

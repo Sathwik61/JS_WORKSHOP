@@ -1,1 +1,4 @@
 make  a function with a  name and return the value with multiplying with a value which is passed as an arguement. and print the output 
+
+
+2.write a js function that takes an array of numbers as input and returns  a new array containing only the even numbers from the original array.
