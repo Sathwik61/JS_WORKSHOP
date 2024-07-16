@@ -191,6 +191,37 @@ let i=1;
 // })
 
 
-setTimeout(()=>{
-    console.log("hey there")
-},3000)
+// setInterval(()=>{
+//     console.log("hey there")
+// },3000)
+
+
+// fecth
+
+
+fetch('https://api.restful-api.dev/objects')
+.then(re=>{return re.json()})
+.then(res=>console.log(res))
+.catch((e)=>{
+    console.log(e)
+})
+
+
+
+
+
+// const obj={
+//     name: 'Moto edge 40 neo',
+//     data: { Capacity: '128 GB', 'Screen size': 15.6 }
+//   }
+
+// fetch('https://jsonplaceholder.typicode.com/posts', {
+//     method: 'POST',
+//     body: JSON.stringify(obj),
+//     headers: {
+//       'Content-type': 'application/json; charset=UTF-8',
+//     },
+//   })
+//     .then((response) => response.json())
+//     .then((json) => console.log(json));
+
