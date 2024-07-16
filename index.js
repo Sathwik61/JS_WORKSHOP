@@ -80,12 +80,26 @@
 // }
 
 
-const obj ={
-    name:"ABC",
-    age:34,
-    section:'d'
-}
+// const obj ={
+//     name:"ABC",
+//     age:34,
+//     section:'d'
+// }
 
-for( let i in obj){
-    console.log(`key :${i} \t value:${obj[i]}`) 
-}
+// for( let i in obj){
+//     console.log(`key :${i} \t value:${obj[i]}`) 
+// }
+
+// while
+
+let i=1;
+
+// while(i<=5){
+//     console.log("value ",i)
+//     i+=1;
+// }
+
+do{
+console.log("value",i)
+i++;
+}while(i<=5)
