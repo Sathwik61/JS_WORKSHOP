@@ -35,3 +35,10 @@
 //     console.log("false")
 
 // }
+
+// let a= 'abc';
+// console.log(`hey ${a}`)
+function func(){
+    console.log("hey there!")
+}
+func();
