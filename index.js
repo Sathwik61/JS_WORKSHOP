@@ -99,7 +99,13 @@ let i=1;
 //     i+=1;
 // }
 
-do{
-console.log("value",i)
-i++;
-}while(i<=5)
+// do{
+// console.log("value",i)
+// i++;
+// }while(i<=5)
+
+let a=[1,2,3,4,5]
+
+a.map((value,index)=>{
+    console.log(`${index}`,`${value}`)
+})
