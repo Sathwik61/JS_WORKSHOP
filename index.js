@@ -18,5 +18,20 @@
 // console.log(obj);
 
 
-let arr =[1,2,3,4,5,6,7]
-console.log(arr)
+// let arr =[1,2,3,4,5,6,7]
+// let sarr =['a','b','c','c']
+// console.log(arr)
+// console.log(sarr)
+
+
+// let a=2;
+// if(a){
+//     console.log("True value")
+// }
+// else if(a==2){
+//     console.log("NEITHER TRUE NOR FALSE its just a number");
+// }
+// else{
+//     console.log("false")
+
+// }
