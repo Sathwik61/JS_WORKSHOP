@@ -116,17 +116,81 @@ let i=1;
 
 
 
-function getEvenNumbers(arr) {
-    let evenNumbers = [];
-    for (let i = 0; i < arr.length; i++) {
-      if (arr[i] % 2 === 0) {
-        evenNumbers.push(arr[i]);
-      }
-    }
-    return evenNumbers;
-  }
+// function getEvenNumbers(arr) {
+//     let evenNumbers = [];
+//     for (let i = 0; i < arr.length; i++) {
+//       if (arr[i] % 2 === 0) {
+//         evenNumbers.push(arr[i]);
+//       }
+//     }
+//     return evenNumbers;
+//   }
   
-  // Example usage
-  let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  let result = getEvenNumbers(numbers);
-  console.log(result);  // Output: [2, 4, 6, 8, 10]
+//   // Example usage
+//   let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//   let result = getEvenNumbers(numbers);
+//   console.log(result);  // Output: [2, 4, 6, 8, 10]
+
+// promises
+
+// let p=new Promise((resolve,reject)=>{
+//     let a=20
+
+//     if(a>=18){
+//         resolve("habibi You turned adult")
+//     }else{
+//         reject("habibi.. im under the water error ")
+//     }
+// })
+
+// p.then((m)=>{
+//     console.log(m)
+// })
+
+// p.catch((e)=>{
+//     console.log(e)
+// })
+
+// const akshay=new Promise((res,rej)=>{
+//      const dow=1;
+//            //if akshay did the work 1 else 0
+
+//            setTimeout(()=>{
+
+//                if(dow){
+//                    res('Akshay kept his promise!')
+//                 }else{
+//                     rej('Akshay broke his promise !')
+//                 }
+//             },3000)
+
+// })
+
+// const  god = ()=>{
+//     return new Promise((res,rej)=>{
+//         const done=1;
+        
+//         if(done){
+//             res("Dog has MoVED")
+//         }
+//         else{
+//             rej("Dog havnt MoVED")
+//         }
+//     })    
+// }
+
+// akshay.then((m)=>{
+//     console.log(m)
+// }).then(god).then((n)=>{
+//     console.log(n)
+// }).then(()=>{
+//     console.log("executed every funtion")
+// })
+// .catch((er)=>{
+//     console.log(er)
+// })
+
+
+setTimeout(()=>{
+    console.log("hey there")
+},3000)
