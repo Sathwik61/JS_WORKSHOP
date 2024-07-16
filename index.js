@@ -37,8 +37,17 @@
 // }
 
 // let a= 'abc';
-// console.log(`hey ${a}`)
+console.log(`hey ${a}`)
 function func(){
     console.log("hey there!")
 }
 func();
+
+document.addEventListener("click",()=>{
+    console.log("djbf")
+})
+
+const fun3=()=>{
+
+}
+fun3()
